@@ -406,6 +406,7 @@ declare_named_atom!(url::Url => "Url");
 #[cfg(feature = "iroh-base")]
 declare_named_atom!(
     iroh_base::PublicKey => "ed25519::PublicKey",
+    iroh_base::Signature => "ed25519::Signature",
     iroh_base::EndpointAddr => "iroh::EndpointAddr",
     iroh_base::RelayUrl => "iroh::RelayUrl",
 );
